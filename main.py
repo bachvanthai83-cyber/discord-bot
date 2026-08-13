@@ -1,8 +1,9 @@
 ﻿# -*- coding: utf-8 -*-
+import os 
 import discord
-from discord.ext import commands
+from discord.ext 
+import commands
 
-TOKEN ="MTUzNzI4NjI4NzkyNzgxMjE0Nw.Gark6N.6B7x_zpYrovVpp68dvjhB9e9ZoDCD3tT2UZHLs"
 KING_ID = 1337402131174391873
 CHANNEL_ID =1537294132702355536
 
@@ -39,4 +40,4 @@ async def on_presence_update(before, after):
                 await channel.send("👑 **Nhà vua đã giáng lâm vào phòng voice!**")
 
 
-bot.run(TOKEN)
+bot.run(os.environ.get("DISCORD_TOKEN"))
