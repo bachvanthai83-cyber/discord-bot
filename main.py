@@ -2,7 +2,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN ="MTUzNzI4NjI4NzkyNzgxMjE0Nw.GLYd-q.mDUlxOCDl0rGrAuPhf1_YEh2zvmf0Ly0_BFKqw"
+TOKEN ="MTUzNzI4NjI4NzkyNzgxMjE0Nw.Gark6N.6B7x_zpYrovVpp68dvjhB9e9ZoDCD3tT2UZHLs"
 KING_ID = 1337402131174391873
 CHANNEL_ID =1537294132702355536
 
